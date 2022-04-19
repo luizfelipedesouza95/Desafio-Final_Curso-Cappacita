@@ -1,0 +1,87 @@
+#pesquisa{
+    background: rgb(233, 225, 225);
+}
+#body-pag-inicial{
+    background-image: url(../images/imagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#titulo{
+    color: white;
+}
+#btn_pesq{
+    background: rgb(185, 189, 189);
+}
+#filmes{
+    background: linear-gradient(70deg, rgba(56, 55, 55, 0.562) , rgba(56, 55, 55, 0.562));
+}
+#cards{
+    color: white;
+    background: transparent;
+}
+#descricoes{
+    width: 700px;
+    color: white;
+    }
+#coment_div{
+    color: white;
+}
+#enviar{
+    color: black;
+    background: linear-gradient(45deg, transparent, rgba(164, 218, 162, 0.915));
+}
+#comentarios{
+    color: white;
+}
+#id_filme{
+    color: black;
+    background: transparent;
+    border: none;
+}
+#titulo_coment{
+    color: white;
+}
+#img_filme{
+    width: 700px;
+    height: 500px;
+    border-radius: 3px;
+}
+#foto_user{
+    align-items: flex-start;
+    margin: 1rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+}
+#botao_coment{
+    background-color: rgb(103, 190, 16);
+    color: black;
+}
+#div_coment{
+    padding: 1rem;
+    align-content: center;
+    background: linear-gradient(70deg, rgba(224, 223, 223, 0.562) , rgba(224, 223, 223, 0.582));
+}
+#nomeUser{
+    color: black;
+}
+/*
+#coment{
+    padding: 1rem;
+    align-content: center;
+    background: linear-gradient(70deg, rgba(224, 223, 223, 0.562) , rgba(224, 223, 223, 0.582));
+}*/
+#user_coment{
+    padding: auto;
+}
+#foto{
+    width: 400px;
+    height: 400px;
+}
+#pag_inicial{
+    justify-content:  center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

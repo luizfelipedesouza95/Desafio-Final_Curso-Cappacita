@@ -1,0 +1,35 @@
+<section id="detalhes" class="d-flex row aling-items-center justify-content-center">
+
+    <div class="col-4 m-5">
+        <img id="img_filme" src='<%- IMGPATH + detalhesFilme.poster_path %>' alt="" class="img-thumbnail m-5 p-0">
+    </div>
+
+    <div id="descricoes" class="col-4 m-4 p-5">
+        <div class="">
+
+            <p id="nome" class="m-1 p-3"><strong>Nome : </strong>
+                <apan id="avalicao">
+                    <%- detalhesFilme.original_title %>
+                </apan>
+            </p>
+
+            <p id="avaliacao" class="m-1 p-3"><strong>Avaliação : </strong>
+                <apan id="avalicao">
+                    <%- detalhesFilme.vote_average %>
+                </apan>
+            </p>
+
+            <p id="linguagem" class="m-1 p-3"><strong>Linguagem : </strong><span id="linguagem">
+                    <%- detalhesFilme.original_language %>
+                </span></p>
+
+            <p id="data-lancamento" class="m-1 p-3"><strong>Lançamento : </strong><span id="data">
+                    <%- detalhesFilme.release_date %>
+                </span></p>
+
+            <p id="descricao" class="m-1 p-3"><strong>Descrição : </strong><span id="descricao">
+                    <%- detalhesFilme.overview %>
+                </span></p>
+        </div>
+    </div>
+</section>

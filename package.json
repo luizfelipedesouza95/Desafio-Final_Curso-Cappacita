@@ -1,0 +1,28 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "desafio_final_cappacita",
+  "main": "./backend/server.js",
+  "scripts": {
+    "start": "nodemon ./backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "i": "^0.3.6",
+    "knex": "^0.95.11",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3-rc.0"
+  }
+}
