@@ -6,7 +6,7 @@ const services = require(`./controller/services/index.js`)
 const path = require('path');
 const DataBase = require("../backend/model/dataBase");
 const urlencoded = express.urlencoded({ extended: true })
-const PORT = 3003;
+const PORT = 3004;
 
 app.use((req, res, next) => {
      res.header("Access-Control-Allow-Origin", "*")
@@ -52,7 +52,8 @@ app.get("/", function (req, res) {
      res.render("./main", { pageInicial: './layouts/index.ejs' })
 })
 
-app.listen(PORT, () => { console.log(`SERVER ON PORT: http://localhost:3003/`) })
+app.listen(PORT, () => { console.log(`SERVIDOR ONLINE --> http://localhost:${PORT}/`)
+})
 
 ///////////////////NAO ESTA USANDO NO PROJETO(TESTE)////////////////////
 //rota para buscar um filme pelo id
